@@ -7,6 +7,8 @@
     --color-green2: rgb(51,149,26);
     --color-red: rgb(184,40,35);
     --color-red2: rgb(146,22,17);
+    --color-purple: rgb(183, 0, 255);
+
 }
 
 body{
@@ -72,4 +74,16 @@ body{
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
+}
+
+#btn-ok{
+    border-radius: 50%;
+    background-color:var(--color-purple) ;
+    cursor: pointer;
+    border:none;
+    align-items: center;
+    display: flex;
+    color:var(--color-dark);
+    width: 25px;
+    height: 25px;
 }
